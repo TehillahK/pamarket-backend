@@ -1,11 +1,11 @@
-let http = require("http");
-let path = require("path");
-let {MongoClient} = require('mongodb');
-let url = "mongodb://pamarketServer:pamarket123@cluster0-shard-00-00.y46ut.mongodb.net:27017,cluster0-shard-00-01.y46ut.mongodb.net:27017,cluster0-shard-00-02.y46ut.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-tsv81h-shard-0&authSource=admin&retryWrites=true&w=majority";
+const http = require("http");
+const path = require("path");
+const {MongoClient} = require('mongodb');
+const url = "mongodb://pamarketServer:pamarket123@cluster0-shard-00-00.y46ut.mongodb.net:27017,cluster0-shard-00-01.y46ut.mongodb.net:27017,cluster0-shard-00-02.y46ut.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-tsv81h-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 
-let express = require("express");
-let app = express();
+const express = require("express");
+const app = express();
 const port = 4496;
 app.listen(port);
 const fs = require('fs');

@@ -4,6 +4,8 @@ This is server code for the pa market web app and mobile app . It connects to a 
 
 ## How to run
 
-After downloading code . Write down the code below in the command line to get the server running
+After downloading code . Write down the code below in the command line to get all the node dependencies .
+> npm install
 
+Then enter the following code below to run.
 > npm start
